@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@700&display=swap');
+
+
+ html{
+    background-color: #c2f7fc;
+    margin-bottom: 2.5%;
+    margin-left: 6%;
+    margin-right: 6%;
+
+   
+}
+
+.score {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.img1 {
+
+    transform: rotate(-40deg);
+    margin-right: 16%;
+
+
+
+}
+
+.img2 {
+    transform: rotate(126deg);
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.img3 {
+    transform: rotate(96deg);
+
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.middle {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.img5 {
+    transform: rotate(122deg);
+    margin-left: 10%;
+
+}
+
+.img6 {
+    transform: rotate(-180deg);
+    margin-right: 10%;
+
+}
+
+.divimg5 {
+    margin-left: 10%;
+}
+
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.img7 {
+    transform: rotate(10deg);
+}
+
+.img8 {
+    transform: rotate(-123deg);
+
+}
+
+.img9 {
+    transform: rotate(40deg);
+    
+}
+
+.img10 {
+    transform: rotate(252deg);
+
+}
+
+.img11 {
+    transform: rotate(123deg);
+}
+
+.victoryDefeat {
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.buttonReplay {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+.buttonAvatar {
+    font-family: 'Pixelify Sans', sans-serif;
+}
+
+@-webkit-keyframes shake-horizontal {
+
+    0%,
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        -webkit-transform: translateX(-10px);
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        -webkit-transform: translateX(10px);
+        transform: translateX(10px);
+    }
+
+    80% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+
+    90% {
+        -webkit-transform: translateX(-8px);
+        transform: translateX(-8px);
+    }
+}
+
+
+@keyframes shake-horizontal {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    10%,
+    30%,
+    50%,
+    70% {
+        transform: translateX(-10px);
+    }
+
+    20%,
+    40%,
+    60% {
+        transform: translateX(10px);
+    }
+
+    80% {
+        transform: translateX(8px);
+    }
+
+    90% {
+        transform: translateX(-8px);
+    }
+}
+
+.shake-horizontal {
+    animation: shake-horizontal 5s ease-in-out infinite both;
+}
+.wobble-ver-right {
+	animation: wobble-ver-right 3.5s infinite both;
+}
+.wobble-ver-left{
+    animation: wobble-ver-left 3.5s infinite both;
+}
+.wobble-ver-right2{
+    animation : wobble-ver-right2 4s infinite both;
+}
+.wobble-ver-left2{
+    animation: wobble-ver-left2  5s infinite both;
+}
+.wobble-ver-right3{
+    animation:wobble-ver-right3 3.5s infinite both;
+}
+.wobble-ver-left3{
+    animation: wobble-ver-left3 4s infinite both;
+}
+
+ @keyframes wobble-ver-right {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateY(-30px) rotate(50deg);
+    }
+    30% {
+      transform: translateX(15px) rotate(-50deg);
+    }
+    45% {
+      transform: translateY(-15px) rotate(50deg);
+    }
+    60% {
+      transform: translateX(9px) rotate(-50deg);
+    }
+    75% {
+      transform: translateY(-6px) rotate(50deg);
+    }
+  }
+  @keyframes wobble-ver-left {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-30px) rotate(150deg);
+    }
+    30% {
+      transform: translateY(15px) rotate(300deg);
+    }
+    45% {
+      transform: translateY(-15px) rotate(150deg);
+    }
+    60% {
+      transform: translateY(-80px) rotate(300deg);
+    }
+    75% {
+      transform: translateX(-25px) rotate(150deg);
+    }
+  }
+  @keyframes wobble-ver-right2 {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateY(-45px) rotate(-75deg);
+    }
+    30% {
+      transform: translateY(20px) rotate(150deg);
+    }
+    45% {
+      transform: translateX(-20px) rotate(30deg);
+    }
+    60% {
+      transform: translateY(20px) rotate(200deg);
+    }
+    75% {
+      transform: translateY(0px) rotate(-90deg);
+    }
+  }
+  @keyframes wobble-ver-left2 {
+    0%,
+    100% {
+      transform: translateX(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateY(15px) rotate(275deg);
+    }
+    30% {
+      transform: translateX(-45px) rotate(-120deg);
+    }
+    45% {
+      transform: translateY(-45px) rotate(50deg);
+    }
+    60% {
+      transform: translateY(80px) rotate(360deg);
+    }
+    
+  }
+  @keyframes wobble-ver-right3 {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-84px) rotate(20deg);
+    }
+    30% {
+      transform: translateY(46px) rotate(150deg);
+    }
+    45% {
+      transform: translateY(-50px) rotate(-120deg);
+    }
+    60% {
+      transform: translateY(-80px) rotate(100deg);
+    }
+    75% {
+      transform: translateX(-25px) rotate(60deg);
+    }
+  }
+  @keyframes wobble-ver-left3 {
+    0%,
+    100% {
+      transform: translateY(0) rotate(0);
+      transform-origin: 50% 50%;
+    }
+    15% {
+      transform: translateX(-12px) rotate(145deg);
+    }
+    30% {
+      transform: translateY(125px) rotate(20deg);
+    }
+    45% {
+      transform: translateY(-50px) rotate(-95deg);
+    }
+    60% {
+      transform: translateY(90px) rotate(78deg);
+    }
+    75% {
+      transform: translateX(-25px) rotate(-123deg);
+    }
+  }
